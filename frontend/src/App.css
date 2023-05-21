@@ -1,0 +1,51 @@
+/*add a self-selected stylesheet here*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+body {
+  background-color: #201F1F;
+}
+
+.main_game {
+  background-color: #2E2C2C;
+  border-radius: 5px;
+  height: 400px;
+}
+
+.codeblock_empty {
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #201F1F;
+}
+
+.codeblock {
+  border: 2px solid #4895ef;
+  width: 100px;
+  border-radius: 5px;
+  cursor: grab;
+}
+
+#footer {
+  background-color: #2E2C2C;
+}
+
+#footer_2 {
+  font-size: 12px;
+}
+
+.button:hover {
+  background-color: #4361ee;
+}
+
+/*# sourceMappingURL=App.css.map */
