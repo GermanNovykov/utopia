@@ -1,0 +1,30 @@
+Importing Libraries:
+The program starts by importing the necessary library java.util.Scanner. This library allows the program to read input from the user.
+
+Declaring Variables:
+The program declares variables to store the operator and the two numbers. These variables are operator, number1, number2, and result. The operator variable is of type char, while number1, number2, and result are of type Double, which is a data type for decimal numbers.
+
+Creating a Scanner Object:
+Next, the program creates an object of the Scanner class. This object, named input, allows the program to read input from the user.
+
+Asking for Operator:
+The program prompts the user to choose an operator by displaying the message "Choose an operator: +, -, *, or /". The user can enter one of these operators as input.
+
+Asking for Numbers:
+The program then asks the user to enter the first number and the second number by displaying appropriate messages. The user can enter decimal numbers as input.
+
+Performing the Calculation:
+After obtaining the operator and the two numbers, the program uses a switch statement to determine which mathematical operation to perform based on the chosen operator.
+
+If the operator is '+', it adds number1 and number2 together and stores the result in the result variable.
+If the operator is '-', it subtracts number2 from number1 and stores the result in the result variable.
+If the operator is '*', it multiplies number1 and number2 together and stores the result in the result variable.
+If the operator is '/', it divides number1 by number2 and stores the result in the result variable.
+Displaying the Result:
+The program then displays the result of the calculation by printing it to the console. It shows the equation in the form "number1 operator number2 = result".
+
+Handling Invalid Operator:
+If the user enters an operator other than '+', '-', '*', or '/', the program displays an error message saying "Invalid operator!".
+
+Closing the Scanner:
+Finally, the program closes the Scanner object using the close() method to release system resources.
